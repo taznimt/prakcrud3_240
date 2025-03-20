@@ -135,6 +135,8 @@ namespace prak3
                         {
 
                             string nim = dgvMahasiswa.SelectedRows[0].Cells["NIM"].Value.ToString();
+
+                            conn.Open();
                         }
                     }
                 }
