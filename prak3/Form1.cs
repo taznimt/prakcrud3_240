@@ -12,6 +12,7 @@ namespace prak3
 {
     public partial class Form1: Form
     {
+        private string connectionString = "Data Source=LAPTOP-GH806S35\\TASNIM;Initial Catalog=OrganisasiMahasiswa;Integrated Security=True";
         public Form1()
         {
             InitializeComponent();
