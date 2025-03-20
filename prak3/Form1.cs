@@ -47,6 +47,8 @@ namespace prak3
                     DataTable dt = new DataTable();
 
                     da.Fill(dt);
+
+                    dgvMahasiswa.AutoGenerateColumns = true;
                 }
             }
             
