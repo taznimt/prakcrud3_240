@@ -36,6 +36,12 @@ namespace prak3
         private void LoadData()
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                }
+            }
             
         }
     }
