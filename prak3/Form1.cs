@@ -62,5 +62,10 @@ namespace prak3
             }
             
         }
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
