@@ -28,6 +28,8 @@ namespace prak3
             txtEmail.Clear();
             txtTelepon.Clear();
             txtAlamat.Clear();
+
+            txtNIM.Focus();
         }
     }
 }
