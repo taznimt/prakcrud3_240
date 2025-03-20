@@ -51,6 +51,8 @@ namespace prak3
                     dgvMahasiswa.AutoGenerateColumns = true;
 
                     dgvMahasiswa.DataSource = dt;
+
+                    ClearForm();
                 }
             }
             
