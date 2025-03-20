@@ -54,6 +54,8 @@ namespace prak3
 
                     ClearForm();
                 }
+
+                catch (Exception ex) 
             }
             
         }
