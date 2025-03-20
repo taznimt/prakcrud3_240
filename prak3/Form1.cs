@@ -99,6 +99,8 @@ namespace prak3
                         {
 
                             MessageBox.Show("Data berhasil ditambahkan!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            LoadData();
                         }
                     }
                 }
