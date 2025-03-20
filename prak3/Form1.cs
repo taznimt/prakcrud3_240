@@ -153,6 +153,8 @@ namespace prak3
                                     MessageBox.Show("Data berhasil dihapus!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                                     LoadData();
+
+                                    ClearForm();
                                 }
 
 
