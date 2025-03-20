@@ -129,6 +129,10 @@ namespace prak3
                 if (confirm == DialogResult.Yes)
                 {
 
+                    using (SqlConnection conn = new SqlConnection(connectionString))
+                    {
+
+                    }
                 }
             }
         }
