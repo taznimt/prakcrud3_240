@@ -45,6 +45,8 @@ namespace prak3
                     SqlDataAdapter da = new SqlDataAdapter(query, conn);
                     // Membuat objek DataTable untuk menampung hasil query
                     DataTable dt = new DataTable();
+
+                    da.Fill(dt);
                 }
             }
             
