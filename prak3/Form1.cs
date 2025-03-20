@@ -72,7 +72,7 @@ namespace prak3
                 {
                     if (labelNIM.Text == "" || labelNama.Text == "" || labelEmail.Text == "" || labelTelepon.Text == "")
                     {
-
+                        MessageBox.Show("Harap isi semua data!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
             }
