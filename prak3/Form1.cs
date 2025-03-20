@@ -121,6 +121,10 @@ namespace prak3
         private void btnHapus_Click(object sender, EventArgs e)
         {
 
+            if (dgvMahasiswa.SelectedRows.Count > 0)
+            {
+
+            }
         }
     }
 }
