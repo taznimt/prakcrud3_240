@@ -23,7 +23,7 @@ namespace prak3
         }
         private void ClearForm()
         {
-           
+            txtNIM.Clear();
         }
     }
 }
