@@ -19,7 +19,7 @@ namespace prak3
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Metode LoadData dipanggil.");
         }
     }
 }
