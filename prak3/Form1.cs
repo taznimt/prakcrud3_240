@@ -43,6 +43,8 @@ namespace prak3
 
                     string query = "SELECT NIM AS [NIM], Nama, Email, Telepon, Alamat FROM Mahasiswa";
                     SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                    // Membuat objek DataTable untuk menampung hasil query
+                    DataTable dt = new DataTable();
                 }
             }
             
