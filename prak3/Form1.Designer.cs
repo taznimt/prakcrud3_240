@@ -36,7 +36,7 @@
             this.txtNIM = new System.Windows.Forms.TextBox();
             this.txtNama = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.textTelepon = new System.Windows.Forms.TextBox();
+            this.txtTelepon = new System.Windows.Forms.TextBox();
             this.txtAlamat = new System.Windows.Forms.TextBox();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
@@ -112,12 +112,12 @@
             this.txtEmail.Size = new System.Drawing.Size(100, 26);
             this.txtEmail.TabIndex = 7;
             // 
-            // textTelepon
+            // txtTelepon
             // 
-            this.textTelepon.Location = new System.Drawing.Point(606, 237);
-            this.textTelepon.Name = "textTelepon";
-            this.textTelepon.Size = new System.Drawing.Size(100, 26);
-            this.textTelepon.TabIndex = 8;
+            this.txtTelepon.Location = new System.Drawing.Point(606, 237);
+            this.txtTelepon.Name = "txtTelepon";
+            this.txtTelepon.Size = new System.Drawing.Size(100, 26);
+            this.txtTelepon.TabIndex = 8;
             // 
             // txtAlamat
             // 
@@ -186,7 +186,7 @@
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.txtAlamat);
-            this.Controls.Add(this.textTelepon);
+            this.Controls.Add(this.txtTelepon);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtNama);
             this.Controls.Add(this.txtNIM);
@@ -213,7 +213,7 @@
         private System.Windows.Forms.TextBox txtNIM;
         private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox textTelepon;
+        private System.Windows.Forms.TextBox txtTelepon;
         private System.Windows.Forms.TextBox txtAlamat;
         private System.Windows.Forms.Button btnTambah;
         private System.Windows.Forms.Button btnHapus;

@@ -21,5 +21,9 @@ namespace prak3
         {
             MessageBox.Show("Metode LoadData dipanggil.");
         }
+        private void ClearForm()
+        {
+           
+        }
     }
 }
