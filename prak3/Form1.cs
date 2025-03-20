@@ -27,6 +27,7 @@ namespace prak3
             txtNama.Clear();
             txtEmail.Clear();
             txtTelepon.Clear();
+            txtAlamat.Clear();
         }
     }
 }
