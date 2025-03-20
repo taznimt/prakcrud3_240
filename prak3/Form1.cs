@@ -117,5 +117,10 @@ namespace prak3
                 }
             }
         }
+
+        private void btnHapus_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
