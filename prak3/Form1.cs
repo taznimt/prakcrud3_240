@@ -164,6 +164,11 @@ namespace prak3
 
                             }
                         }
+
+                        catch (Exception ex)
+                        {
+
+                        }
                     }
                 }
             }
