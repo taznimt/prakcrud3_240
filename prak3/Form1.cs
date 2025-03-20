@@ -55,7 +55,10 @@ namespace prak3
                     ClearForm();
                 }
 
-                catch (Exception ex) 
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message, "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             
         }
