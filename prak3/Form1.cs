@@ -150,6 +150,7 @@ namespace prak3
                                 if (rowsAffected > 0)
                                 {
 
+                                    MessageBox.Show("Data berhasil dihapus!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 }
 
 
