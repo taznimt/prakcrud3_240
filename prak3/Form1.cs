@@ -104,6 +104,11 @@ namespace prak3
 
                             ClearForm();
                         }
+                        else
+                        {
+
+                            MessageBox.Show("Data tidak berhasil ditambahkan!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                     }
                 }
             }
