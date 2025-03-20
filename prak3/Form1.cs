@@ -76,6 +76,8 @@ namespace prak3
 
                         return; 
                     }
+
+                    conn.Open();
                 }
             }
         }
