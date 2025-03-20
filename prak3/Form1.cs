@@ -131,7 +131,11 @@ namespace prak3
 
                     using (SqlConnection conn = new SqlConnection(connectionString))
                     {
+                        try
+                        {
 
+                            string nim = dgvMahasiswa.SelectedRows[0].Cells["NIM"].Value.ToString();
+                        }
                     }
                 }
             }
