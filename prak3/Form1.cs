@@ -178,6 +178,9 @@ namespace prak3
         {
 
             LoadData();
+
+            MessageBox.Show($"Jumlah Kolom: {dgvMahasiswa.ColumnCount}\nJumlah Baris: {dgvMahasiswa.Rows.Count}",
+       "Debugging DataGridView", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
