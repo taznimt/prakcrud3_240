@@ -144,6 +144,8 @@ namespace prak3
                             {
 
                                 cmd.Parameters.AddWithValue("@NIM", nim);
+
+                                int rowsAffected = cmd.ExecuteNonQuery();
                             }
                         }
                     }
