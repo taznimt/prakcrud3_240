@@ -31,5 +31,10 @@ namespace prak3
 
             txtNIM.Focus();
         }
+
+        private void LoadData()
+        {
+
+        }
     }
 }
